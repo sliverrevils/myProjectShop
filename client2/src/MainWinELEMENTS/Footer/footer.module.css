@@ -1,0 +1,44 @@
+.FooterMain{
+    background-color: rgb(224, 233, 233);
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    
+}
+.FooterMain input{
+    background-color: darkgoldenrod;
+    color: white;
+    width: 150px;
+    height: 100%;
+}
+.FooterMain>.Control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    height: 20px;    
+    margin: 0 auto;
+    background-color: black;
+
+}
+
+.FooterMain button{
+    margin: auto 10px;    
+    transform: translateY(-10%);
+}
+
+.FooterMain [attr="clear"]{
+    background-color: tomato;
+}
+
+.close{
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+.close:hover{
+    font-size: 24px;
+}

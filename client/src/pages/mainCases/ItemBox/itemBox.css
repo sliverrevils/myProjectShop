@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    border: 2px solid #e9e9e9;
+    
+    border-radius: 25px 15px 5px 5px;
+
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 400px;
+
+    margin: 10px;
+    background-color: rgb(248, 246, 246);
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.box>.box_name{
+    text-align: left;
+    margin:  10px 5px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.box>.box_img{
+    overflow: hidden;
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+    opacity: 1;
+    display: block;
+    position: relative;
+
+    
+}
+
+.box>.box_img>.box_cost{
+    display: block;
+    position: absolute;
+
+    bottom: 10px;    
+    right: 3px;
+    transform: rotate(10deg);
+
+    border: 3px solid rgb(172, 41, 41);
+    border-radius: 5px 15px;
+
+    padding: 5px;
+
+    background-color: rgb(194, 100, 120);
+    color: white;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.box>.box_discount{
+    margin: 5px 2px;
+    background-color: yellow;
+    text-align: right;
+    color: rgb(114, 114, 112);
+}
+
+.box>.box_description{
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 0 15px 15px 15px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.box>.box_id{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 9px;
+    color: black;
+    opacity: 0.9;
+}

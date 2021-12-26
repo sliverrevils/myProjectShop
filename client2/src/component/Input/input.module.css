@@ -1,0 +1,27 @@
+.Input{
+    margin: 15px;
+}
+
+label{
+    background-color: rgb(252, 109, 137);
+    color: white;
+    border-radius: 5px ;
+    padding: 5px 15px;
+    
+    font-size: 25px;
+    font-weight: bolder;
+}
+input{
+    border: 0;
+    font-size: 25px;
+    border-radius: 5px;
+}
+input:hover{
+    border: 0;
+    inset: 0;
+}
+
+
+.red{
+    color:red;
+}

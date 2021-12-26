@@ -1,0 +1,32 @@
+body{
+    
+
+}
+.info_main{
+    display: flex;
+    flex-direction: column;
+}
+
+.info_main>.info_id{
+
+}
+
+.info_main>.info_name {
+
+}
+
+.info_main>.info_pic{
+    
+}
+.info_main>.info_discount{
+    
+}
+
+.info_main>.info_number{
+    
+}
+
+.info_main>.info_description{
+    
+}
+

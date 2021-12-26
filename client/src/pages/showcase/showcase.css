@@ -1,0 +1,12 @@
+.maincases{
+    display: flex;
+    background-color: aqua;
+   
+}
+
+.case-box{
+    border:2px solid blue;
+    border-radius: 5px;
+    
+    
+}

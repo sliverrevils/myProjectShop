@@ -1,0 +1,38 @@
+.ListItems{
+    background-color: #a6a6ff;
+    color: white;
+    height: 100%;
+}
+
+/* .addItem_btn{
+    background-color: green;
+    color:white;
+    
+} */
+
+button{
+    padding: 5px;
+    margin: 0;
+    border: 0;
+    background-color: yellowgreen;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+}
+
+button:hover{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
+    font-weight: bolder;
+
+}
+
+.del{
+    background-color: salmon;    
+}
+
+.del:hover{
+    padding: 1px;
+     border: 2px solid black; 
+     color: black;
+     font-weight: 800;    
+}
