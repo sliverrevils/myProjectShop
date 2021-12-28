@@ -10,7 +10,7 @@ import { useGlobalContext } from './HOC/Layout/Layout';
 
 function First({val}){
   const [data,setData]=useToggle(); // TEST TOGGLE HOOK
-  console.log(data);
+ // console.log(data);
   return(
     <div>
       <h1>Hellow! {val}</h1>

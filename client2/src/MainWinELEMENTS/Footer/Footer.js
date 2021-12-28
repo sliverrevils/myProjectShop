@@ -42,16 +42,16 @@ export const basketCase = {    // OBJ WITH FUNCS USE LS myHOOK
 
 const Footer = ({globalState,setGlobalState}) => { //DESTRUCT GLOBAL STATE
    
-    console.dir(globalState);
+    //console.dir(globalState);
     const [value, setValue] = useLocalStorage("basketCase"); // STATE of LS - myHOOK 
-    console.log("LS :", value);
+    //console.log("LS :", value);
     const [add, setAdd] = useState(); // input value to add item
     const [del, setDel] = useState(); // input of del item 
 
 useEffect(()=>{
     setGlobalState({new:"Nik"});
 },[]);
-console.log("GS",globalState);
+//console.log("GS",globalState);
     return value && (
         <div className={classes.FooterMain}>
                                             {/* ?? - ? */}

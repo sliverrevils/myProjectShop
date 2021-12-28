@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState } from "react";
 import Footer from "../../MainWinELEMENTS/Footer/Footer";
+import LeftMenu from "../../MainWinELEMENTS/MenuWin/LeftMenu";
 import classes from "./Layout.module.css";
 
 //             CONTEXT 
@@ -12,6 +13,7 @@ const Layout = ({ children }) => {
         footer: {
             addDelBlock: false,
             basket: [],
+            leftMenu:false,
             
         },
     }
@@ -25,7 +27,7 @@ const Layout = ({ children }) => {
         <div className={classes.Layout}>
             <h3>Layout</h3>
 
-            <GlobalContext.Provider value={{ globalState, setGlobalState }}>{children}</GlobalContext.Provider>
+            <GlobalContext.Provider value={{ globalState, setGlobalState }}><LeftMenu/> {children}</GlobalContext.Provider>
 
             <div className={classes.Footer}><Footer {...{ globalState, setGlobalState }} /></div>
         </div>

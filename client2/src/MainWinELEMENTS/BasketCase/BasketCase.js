@@ -15,7 +15,7 @@ const BasketCase=({getArr,globalState,setGlobalState})=>{
 
     useEffect(()=>{
         loadLS();
-        console.log("BASKET EFFECT",globalState);
+      //  console.log("BASKET EFFECT",globalState);
     },[])
 
     return (
